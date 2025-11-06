@@ -1,0 +1,44 @@
+{
+  "doctors": [
+    {
+      "doctor_id": 1,
+      "name": "Dr. Priya Sharma",
+      "specialization": "General Physician",
+      "appointment_types": {
+        "consultation": 30,
+        "followup": 15,
+        "physical": 45,
+        "special": 60
+      },
+      "working_hours": {
+        "start": "09:00",
+        "end": "17:00"
+      },
+      "booked_slots": {
+        "2025-11-07": [
+          {
+            "start": "15:00",
+            "end": "15:30",
+            "appointment_type": "consultation"
+          }
+        ]
+      }
+    },
+    {
+      "doctor_id": 2,
+      "name": "Dr. Rahul Mehta",
+      "specialization": "Cardiologist",
+      "appointment_types": {
+        "consultation": 45,
+        "followup": 20,
+        "physical": 60,
+        "special": 60
+      },
+      "working_hours": {
+        "start": "10:00",
+        "end": "22:00"
+      },
+      "booked_slots": {}
+    }
+  ]
+}
